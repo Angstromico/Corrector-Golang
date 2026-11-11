@@ -1,0 +1,32 @@
+# Binaries and build artifacts
+/build/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test and coverage artifacts
+*.test
+*.out
+coverage.txt
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Implementation plans / scratch
+# PLAN_DE_IMPLEMENTACION.md
+*.plan.md

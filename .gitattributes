@@ -1,0 +1,27 @@
+# Default line endings to LF
+* text=auto eol=lf
+
+# PowerShell scripts to CRLF
+*.ps1 text eol=crlf
+
+# Shell scripts to LF
+*.sh text eol=lf
+
+# Go source files
+*.go text eol=lf
+
+# Markdown and text
+*.md text eol=lf
+*.txt text eol=lf
+
+# JSON and configs
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Binaries
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.words binary
